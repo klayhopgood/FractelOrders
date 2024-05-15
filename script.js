@@ -1,8 +1,8 @@
 function loadClient() {
   const apiKey = "AIzaSyDuEn3Mw1oaAEKISiiUUNZmC1X3UvYPF5k"; // Replace with your actual API key
-  const spreadsheetId = "17uxdu7E4G8v3nquImZVFu4jvaR_YB35uiocnb2yYh1k"; // Replace with your spreadsheet ID (optional)
+  const spreadsheetId = "17uxdu7E4G8v3nquImZVFu4jvaR_YB35uiocnb2yYh1k"; // Replace with your spreadsheet ID
 
-  const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}; // Build the API endpoint URL
+  const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}`; // Build the API endpoint URL
 
   fetch(url, {
     headers: {
